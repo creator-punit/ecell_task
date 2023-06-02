@@ -22,7 +22,7 @@
                 <p>events</p>
                 <p>sponsors</p>
                 <p>faq</p>
-                
+
                 <img src="assets/asset 1.png" alt="">
             </div>
         </nav>
@@ -69,7 +69,8 @@
                     accelerate their business.</p>
                 <p>perks to participate in get funded</p>
                 <ul class="fonti">
-                    <li style="font-family: 'Montserrat', sans-serif;">Opportunity to present their ideas to experienced investors</li>
+                    <li style="font-family: 'Montserrat', sans-serif;">Opportunity to present their ideas to experienced
+                        investors</li>
                     <li>Chance to recieve valuable feedback from investors</li>
                     <li>Exposure to potential investors and networking opportunities</li>
                     <li>Opportunity to win cash prizes and funding opportunities</li>
@@ -80,10 +81,11 @@
 
     <div class="container inp" style="margin-top: 100px;">
         <div class="input-img">
-            </div><div class="input">
-            
+        </div>
+        <div class="input">
+
             <div class="input-form">
-                <p style="text-align: center; font-size: 40px;">Registration Form</p>
+                <p>Registration Form</p>
                 <form action="">
                     <div class="row">
                         <div class="col">
@@ -91,14 +93,14 @@
                                 Name of your startup
                                 <span>*</span>
                             </label>
-                            <input type="text" name="" id="">
+                            <input type="text" name="" id="startup-name">
                         </div>
                         <div class="col">
                             <label for="">
                                 Founder's Name
                                 <span>*</span>
                             </label>
-                            <input type="text">
+                            <input type="text" id="founder-name">
                         </div>
                     </div>
                     <div class="row">
@@ -106,37 +108,80 @@
                             <label for=""> Email Address
                                 <span>*</span>
                             </label>
-                            <input type="text">
+                            <input type="email" id="email">
                         </div>
-                        <div class="col">                        <div class="col"><label for="">Contact Number<span><input type="text" name="" id=""></span></label></div>
-                    </div>
-                </div>
-                    <div class="row">
-                        <div class="col"><label for="">Which city is your startup based in?<span>*<input type="text" name="" id=""></span></label></div>
-                        <div class="col"><label for="">Mention your startup website<span>**<input type="text" name="" id=""></span></label></div>
+                        <div class="col">
+                            <div class="col"><label for="">Contact Number<span><input type="number" name=""
+                                            id="number"></span></label></div>
+                        </div>
                     </div>
                     <div class="row">
-                        <div class="col"><label for="">What is your target customer and market size?<span>*<input type="text" name="" id=""></span></label></div>
-                        <div class="col"><label for="">What is your primary revenue stream?<span>*<input type="text" name="" id=""></span></label></div>
+                        <div class="col"><label for="">Which city is your startup based in?<span>*<input type="text"
+                                        name="" id="city"></span></label></div>
+                        <div class="col"><label for="">Mention your startup website<span>*<input type="text" name=""
+                                        id="website"></span></label></div>
                     </div>
                     <div class="row">
-                        <div class="col"><label for="">Mention any two close competitors of your startup<span>*<input type="text" name="" id=""></span></label></div>
-                        <div class="col"><label for="">Can you provide a brief description about your Startup, Product and the need/gap being addressed?<span>*<input type="text" name="" id=""></span></label></div>
+                        <div class="col"><label for="">What is your target customer and market size?<span>*<input
+                                        type="text" name="" id="customer"></span></label></div>
+                        <div class="col"><label for="">What is your primary revenue stream?<span>*<input type="text"
+                                        name="" id="revenue"></span></label></div>
                     </div>
                     <div class="row">
-                        <div class="col"><label for="">What are some of the challenges you are facing with your Startup?<span>*<input type="text" name="" id=""></span></label></div>
-                        <div class="col"><label for="">At what stage are you in your Startup Journey?<span>**<input type="text" name="" id=""></span></label></div>
+                        <div class="col"><label for="">Mention any two close competitors of your startup<span>*<input
+                                        type="text" name="" id="competition"></span></label></div>
+                        <div class="col"><label for="">Can you provide a brief description about your Startup, Product
+                                and the need/gap being addressed?<span>*<input type="text" name="" id="description"></span></label>
+                        </div>
                     </div>
                     <div class="row">
-                        <div class="col"><label for="">Which event do you want to register for?<span>*<input type="text" name="" id=""></span></label></div>
-                        <div class="col"><label for="">What domain is your startup in?<span>*<input type="text" name="" id=""></span></label></div>
+                        <div class="col"><label for="">What are some of the challenges you are facing with your
+                                Startup?<span>*<input type="text" name="" id="challenge"></span></label></div>
+                        <div class="col"><label for="">At what stage are you in your Startup Journey?<span>* 
+                            <select name="" id="startup-stage">
+                                <option value="" class="">Ideation</option>
+                                <option value="" class="">MVP Ready(POC Evalutaion underway - not paid)</option>
+                                <option value="" class="">Costumor Pilots Underways (Paid POC)</option>
+                                <option value="" class="">Early Revenue(First set of paid customers onboard)</option>
+                                <option value="" class="">Early Scale(GTM and market validated,now looking to scale)</option>
+                                <option value="" class="">Sacling(Proven GTM with sacled customers, now going global or national)</option>
+                            </select></span></label></div>
                     </div>
                     <div class="row">
-                        <div class="col"><label for="">If other category mention here in brief
-                            <span><input type="text" name="" id=""></span></label></div>
-                            <div class="col"></div>
+                        <div class="col"><label for="">Which event do you want to register for?<span>*
+                            <select name="" id="event">
+                                <option value="">Ideation</option>
+                                <option value="">Get Funded</option>
+                            </select></span></label></div>
+                        <div class="col"><label for="">What domain is your startup in?<span>*
+                            <select name="" id="domain">
+                                <option value="">Healthcare/Pharma/Lifesciences</option>
+                                <option value="">Finance/Insurance/Fintech</option>
+                                <option value="">Manufacturing/Industrial</option>
+                                <option value="">Retail/Sales&Marketing</option>
+                                <option value="">Deep Technology (Domain neutral)/AI</option>
+                                <option value="">Agriculture/Food Tech</option>
+                                <option value="">FMCG</option>
+                                <option value="">EduTech</option>
+                                <option value="">Drone</option>
+                                <option value="">AR/VR</option>
+                                <option value="">IOT</option>
+                                <option value="">Other</option>
+                            </select></span></label></div>
                     </div>
-                    
+                    <div class="row">
+                        <div class="col"><label for="other">If other category mention here in brief
+                                <span><input type="text" name="" id="other"></span></label></div>
+                        <div class="col"></div>
+                    </div>
+                    <div class="row" style="display: flex;
+                    align-items: center;
+                    justify-content: center;">
+                        <button>
+                            REGISTER
+                        </button>
+                    </div>
+
                 </form>
             </div>
         </div>
@@ -163,6 +208,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+
+        <script src="app.js"></script>
 </body>
 
 </html>
